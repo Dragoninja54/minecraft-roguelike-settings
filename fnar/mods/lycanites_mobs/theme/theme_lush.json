@@ -6,19 +6,19 @@
       "base": "DARKOAK",
       "primary": {
         "floor": {
-        "type": "WEIGHTED", "data": [
-          {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonetile"}, "weight": 8},
-          {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonepolished"}, "weight": 2},
-          {"type": "METABLOCK", "data": {"name": "minecraft:mycelium"}, "weight": 0}
-        ]
-      },
-      "walls": {
-        "type": "WEIGHTED", "data": [
-            {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonebrick"}, "weight": 8},
-            {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonechiseled"}, "weight": 2},
-            {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonepillar"}, "weight": 0}
+          "type": "WEIGHTED", "data": [
+            {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonetile"}, "weight": 8},
+            {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonepolished"}, "weight": 2},
+            {"type": "METABLOCK", "data": {"name": "minecraft:mycelium"}, "weight": 0}
           ]
         },
+        "walls": {
+          "type": "WEIGHTED", "data": [
+              {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonebrick"}, "weight": 8},
+              {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonechiseled"}, "weight": 2},
+              {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonepillar"}, "weight": 0}
+            ]
+          },
         "pillar": {
           "type": "LAYERS", "data": [
             {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonechiseled"}},
@@ -35,7 +35,8 @@
             {"type": "METABLOCK", "data": {"name": "minecraft:obsidian"}, "weight": 8}
           ]
         },
-        "liquid": {"type": "METABLOCK", "data": {"name": "minecraft:water"}}
+        "liquid": {"type": "METABLOCK", "data": {"name": "minecraft:water"}
+      }
       },
       "secondary": {
         "floor": {
@@ -45,7 +46,7 @@
           {"type": "METABLOCK", "data": {"name": "minecraft:mycelium"}, "weight": 0}
         ]
       },
-      "walls": {
+        "walls": {
         "type": "WEIGHTED", "data": [
             {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonebrick"}, "weight": 8},
             {"type": "METABLOCK", "data": {"name": "lycanitesmobs:lushstonechiseled"}, "weight": 2},
